@@ -20,19 +20,20 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="#参考链接：##char *m &#x3D; “hello”;“hello”保存在静态数据区，该数据不能修改.由指针m指向. 不能通过指针m来修改静态数据区的值. char w[] &#x3D; “hello”;“hello”保存在栈空间数组里. 数组名为w, 函数名为数组的首地址. 可以通过w[i]&#x3D;’a’, 或*(w+i)&#x3D;’a’的形式来修改数组内容.">
-<meta property="og:type" content="article">
-<meta property="og:title" content="QALeng Blog">
-<meta property="og:url" content="http://example.com/2021/05/27/leetcode/1-100/11-14/index.html">
+  <meta name="description" content="14. 最长公共前缀 参考链接： 为什么不能修改指向字符串的指针             #参考链接：##char *m &#x3D; “hello”;“hello”保存在静态数据区，该数据不能修改.由指针m指向. 不能通过指针m来修改静态数据区的值. char w[] &#x3D; “hello”;“hello”保存在栈空间数组里. 数组名为w, 函数名为数组的首地址. 可以通过w[i]&#x3D;’a’, 或*(">
+<meta property="og:type" content="website">
+<meta property="og:title" content="11-14.md">
+<meta property="og:url" content="http://example.com/private/leetcode/1-100/11-14.html">
 <meta property="og:site_name" content="QALeng Blog">
-<meta property="og:description" content="#参考链接：##char *m &#x3D; “hello”;“hello”保存在静态数据区，该数据不能修改.由指针m指向. 不能通过指针m来修改静态数据区的值. char w[] &#x3D; “hello”;“hello”保存在栈空间数组里. 数组名为w, 函数名为数组的首地址. 可以通过w[i]&#x3D;’a’, 或*(w+i)&#x3D;’a’的形式来修改数组内容.">
+<meta property="og:description" content="14. 最长公共前缀 参考链接： 为什么不能修改指向字符串的指针             #参考链接：##char *m &#x3D; “hello”;“hello”保存在静态数据区，该数据不能修改.由指针m指向. 不能通过指针m来修改静态数据区的值. char w[] &#x3D; “hello”;“hello”保存在栈空间数组里. 数组名为w, 函数名为数组的首地址. 可以通过w[i]&#x3D;’a’, 或*(">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-05-27T15:38:24.790Z">
-<meta property="article:modified_time" content="2021-05-22T13:57:38.417Z">
+<meta property="article:published_time" content="2021-05-12T13:12:41.000Z">
+<meta property="article:modified_time" content="2021-05-28T12:00:54.170Z">
 <meta property="article:author" content="QALeng">
+<meta property="article:tag" content="leetcode">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/2021/05/27/leetcode/1-100/11-14/">
+<link rel="canonical" href="http://example.com/private/leetcode/1-100/11-14">
 
 
 <script id="page-configurations">
@@ -40,12 +41,13 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : true,
+    isPost : false,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title> | QALeng Blog</title>
+  <title>11-14.md | QALeng Blog
+</title>
   
 
 
@@ -135,7 +137,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">5</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">4</span></a>
 
   </li>
         <li class="menu-item menu-item-schedule">
@@ -163,88 +165,82 @@
       <div class="main-inner">
         <div class="content-wrap">
           
+  
+  
 
-          <div class="content post posts-expand">
+          <div class="content page posts-expand">
             
 
     
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/27/leetcode/1-100/11-14/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/author.png">
-      <meta itemprop="name" content="QALeng">
-      <meta itemprop="description" content="日常记录、技术问题记录">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="QALeng Blog">
-    </span>
+    
+    
+    <div class="post-block" lang="zh-CN">
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
+
+<h1 class="post-title" itemprop="name headline">11-14.md
+</h1>
+
+<div class="post-meta">
+  
+  <ul class="breadcrumb">
           
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-05-27 23:38:24" itemprop="dateCreated datePublished" datetime="2021-05-27T23:38:24+08:00">2021-05-27</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-05-22 21:57:38" itemprop="dateModified" datetime="2021-05-22T21:57:38+08:00">2021-05-22</time>
-              </span>
-
+            <li><a href="/private/">PRIVATE</a></li>
+            <li><a href="/private/leetcode/">LEETCODE</a></li>
+            <li><a href="/private/leetcode/1-100/">1-100</a></li>
+            <li>11-14</li>
           
+  </ul>
 
-        </div>
-      </header>
+</div>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+</header>
 
       
-        <h2><span id="14-zui-chang-gong-gong-qian-zhui"></span><a href="#14-zui-chang-gong-gong-qian-zhui" class="header-anchor">#</a></h2><h3><span id="can-kao-lian-jie">参考链接：</span><a href="#can-kao-lian-jie" class="header-anchor">#</a></h3><h4><span id="wei-shi-me-bu-neng-xiu-gai-zhi-xiang-zi-fu-chuan-de-zhi-zhen"></span><a href="#wei-shi-me-bu-neng-xiu-gai-zhi-xiang-zi-fu-chuan-de-zhi-zhen" class="header-anchor">#</a></h4><p>char *m = “hello”;<br>“hello”保存在静态数据区，该数据不能修改.<br>由指针m指向. 不能通过指针m来修改静态数据区的值.</p>
+      
+      
+      <div class="post-body">
+          <div class="toc">
+
+<!-- toc -->
+
+<ul>
+<li><a href="#14-zui-chang-gong-gong-qian-zhui-https-leetcode-cn-com-problems-longest-common-prefix">14. 最长公共前缀</a><ul>
+<li><a href="#can-kao-lian-jie">参考链接：</a><ul>
+<li><a href="#wei-shi-me-bu-neng-xiu-gai-zhi-xiang-zi-fu-chuan-de-zhi-zhen-https-blog-csdn-net-hkok123-article-details-20918495">为什么不能修改指向字符串的指针</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+
+</div>
+
+
+
+
+<h2><span id="14-zui-chang-gong-gong-qian-zhui"></span><a href="#14-zui-chang-gong-gong-qian-zhui" class="header-anchor">#</a></h2><h3><span id="can-kao-lian-jie">参考链接：</span><a href="#can-kao-lian-jie" class="header-anchor">#</a></h3><h4><span id="wei-shi-me-bu-neng-xiu-gai-zhi-xiang-zi-fu-chuan-de-zhi-zhen"></span><a href="#wei-shi-me-bu-neng-xiu-gai-zhi-xiang-zi-fu-chuan-de-zhi-zhen" class="header-anchor">#</a></h4><p>char *m = “hello”;<br>“hello”保存在静态数据区，该数据不能修改.<br>由指针m指向. 不能通过指针m来修改静态数据区的值.</p>
 <p>char w[] = “hello”;<br>“hello”保存在栈空间数组里. 数组名为w, 函数名为数组的首地址.</p>
 <p>可以通过w[i]=’a’, 或*(w+i)=’a’的形式来修改数组内容.</p>
 
+      </div>
+      
+      
+      
     </div>
+    
+  <ul class="breadcrumb">
+          
+            <li><a href="/private/">PRIVATE</a></li>
+            <li><a href="/private/leetcode/">LEETCODE</a></li>
+            <li><a href="/private/leetcode/1-100/">1-100</a></li>
+            <li>11-14</li>
+          
+  </ul>
 
     
     
     
-
-      <footer class="post-footer">
-
-        
-
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2021/05/12/ubuntu/2021/md/md/" rel="prev" title="md语法">
-      <i class="fa fa-chevron-left"></i> md语法
-    </a></div>
-      <div class="post-nav-item"></div>
-    </div>
-      </footer>
-    
-  </article>
-  
-  
-  
-
 
 
           </div>
@@ -311,7 +307,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
