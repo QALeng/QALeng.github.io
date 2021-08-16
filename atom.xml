@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>QALeng Blog</title>
+  
+  <subtitle>让技术为人服务。</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-08-16T11:52:16.076Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>QALeng</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>md语法</title>
+    <link href="http://example.com/2021/05/12/ubuntu/2021/md/md/"/>
+    <id>http://example.com/2021/05/12/ubuntu/2021/md/md/</id>
+    <published>2021-05-12T13:12:41.000Z</published>
+    <updated>2021-08-16T11:52:16.076Z</updated>
+    
+    <content type="html"><![CDATA[<h1><span id="md-chang-yong-yu-fa">md常用语法</span><a href="#md-chang-yong-yu-fa" class="header-anchor">#</a></h1><h2><span id="1-lian-jie">1.链接</span><a href="#1-lian-jie" class="header-anchor">#</a></h2><pre><code>[链接名](链接)</code></pre><h3><span id="li-zi">例子:</span><a href="#li-zi" class="header-anchor">#</a></h3><p><a href="https://www.jianshu.com/p/436caf91dd06">md语法</a></p><p><a href="https://blog.csdn.net/heimu24/article/details/81189700">md颜色设置</a></p><h2><span id="2-tu-pian">2.图片</span><a href="#2-tu-pian" class="header-anchor">#</a></h2><h3><span id="li-zi">例子:</span><a href="#li-zi" class="header-anchor">#</a></h3><p><img src="https://tse2-mm.cn.bing.net/th/id/OIP.G8a5XQsl018D1gsbBhWb5QHaFF?w=243&h=167&c=7&o=5&pid=1.7" alt="bing图片"></p><h2><span id="3-biao-ti">3.标题</span><a href="#3-biao-ti" class="header-anchor">#</a></h2><pre><code> 总共六个 # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题</code></pre><h3><span id="li-zi">例子:</span><a href="#li-zi" class="header-anchor">#</a></h3><h1><span id="yi-ji-biao-ti">一级标题</span><a href="#yi-ji-biao-ti" class="header-anchor">#</a></h1><h2><span id="er-ji-biao-ti">二级标题</span><a href="#er-ji-biao-ti" class="header-anchor">#</a></h2><h3><span id="san-ji-biao-ti">三级标题</span><a href="#san-ji-biao-ti" class="header-anchor">#</a></h3><h4><span id="si-ji-biao-ti">四级标题</span><a href="#si-ji-biao-ti" class="header-anchor">#</a></h4><h5><span id="wu-ji-biao-ti">五级标题</span><a href="#wu-ji-biao-ti" class="header-anchor">#</a></h5><h6><span id="liu-ji-biao-ti">六级标题</span><a href="#liu-ji-biao-ti" class="header-anchor">#</a></h6><h2><span id="4-xie-ti">4.斜体</span><a href="#4-xie-ti" class="header-anchor">#</a></h2><pre><code>前后加*(斜体和链接可以混用)*这是斜体*</code></pre><h3><span id="li-zi">例子:</span><a href="#li-zi" class="header-anchor">#</a></h3><p><em>这是斜体</em></p><h2><span id="5-wei-zi-ti-jia-yan-se">5.为字体加颜色</span><a href="#5-wei-zi-ti-jia-yan-se" class="header-anchor">#</a></h2><pre><code> 这是&lt;font style=&quot;color:red&quot;&gt;红色&lt;/font&gt;字体这是&lt;font style=&quot;color:green&quot;&gt;绿色&lt;/font&gt;字体这是&lt;font style=&quot;color:yellow&quot;&gt;黄色&lt;/font&gt;字体这是&lt;font style=&quot;color:blue&quot;&gt;蓝色&lt;/font&gt;字体</code></pre><h3><span id="li-zi">例子:</span><a href="#li-zi" class="header-anchor">#</a></h3><p> 这是<font style="color:red">红色</font>字体<br> 这是<font style="color:green">绿色</font>字体<br> 这是<font style="color:yellow">黄色</font>字体<br> 这是<font style="color:blue">蓝色</font>字体</p><h2><span id="6-wei-zi-ti-jia-cu">6.为字体加粗</span><a href="#6-wei-zi-ti-jia-cu" class="header-anchor">#</a></h2><pre><code> **加粗**字体</code></pre><h2><span id="li-zi">例子:</span><a href="#li-zi" class="header-anchor">#</a></h2><p> <strong>加粗</strong>字体</p><h2><span id="7-email">7.Email</span><a href="#7-email" class="header-anchor">#</a></h2><pre><code> Email:&lt;yabing.zyb@alibaba-inc.com&gt;</code></pre><h3><span id="li-zi">例子:</span><a href="#li-zi" class="header-anchor">#</a></h3><p> Email:<a href="mailto:&#x79;&#x61;&#98;&#105;&#110;&#103;&#46;&#x7a;&#x79;&#98;&#64;&#97;&#108;&#x69;&#x62;&#x61;&#x62;&#x61;&#45;&#x69;&#x6e;&#99;&#46;&#99;&#111;&#x6d;">&#x79;&#x61;&#98;&#105;&#110;&#103;&#46;&#x7a;&#x79;&#98;&#64;&#97;&#108;&#x69;&#x62;&#x61;&#x62;&#x61;&#45;&#x69;&#x6e;&#99;&#46;&#99;&#111;&#x6d;</a></p><h2><span id="8-wu-xu-xu-lie">8.无序序列</span><a href="#8-wu-xu-xu-lie" class="header-anchor">#</a></h2><pre><code> * list1 * list2 * list3</code></pre><h3><span id="li-zi">例子:</span><a href="#li-zi" class="header-anchor">#</a></h3><ul><li>list1</li><li>list2</li><li>list3</li></ul><h2><span id="9-you-xu-xu-lie">9.有序序列</span><a href="#9-you-xu-xu-lie" class="header-anchor">#</a></h2><pre><code> 1. list1 2. list2 3. list3</code></pre><h3><span id="li-zi">例子:</span><a href="#li-zi" class="header-anchor">#</a></h3><ol><li>list1</li><li>list2</li><li>list3</li></ol><h3><span id="10-fen-ge-xian">10.分割线</span><a href="#10-fen-ge-xian" class="header-anchor">#</a></h3><pre><code>***---- - - -</code></pre><h3><span id="li-zi">例子:</span><a href="#li-zi" class="header-anchor">#</a></h3><hr><hr><hr><h2><span id="11-nei-rong-kuang">11.内容框</span><a href="#11-nei-rong-kuang" class="header-anchor">#</a></h2><pre><code>在上一行内容缩进的基础上再缩进四个空格</code></pre><h3><span id="li-zi">例子:</span><a href="#li-zi" class="header-anchor">#</a></h3><pre><code> 在上一行内容缩进的基础上再缩进四个空格</code></pre><h2><span id="12-huan-xing">12.换行</span><a href="#12-huan-xing" class="header-anchor">#</a></h2><pre><code>需要换行&lt;br&gt;这是换行后的下一行</code></pre><h3><span id="li-zi">例子:</span><a href="#li-zi" class="header-anchor">#</a></h3><p>需要换行<br>这是换行后的下一行</p><h2><span id="13-zhong-hua-xian">13,中划线</span><a href="#13-zhong-hua-xian" class="header-anchor">#</a></h2><pre><code>~~中划线~~</code></pre><h3><span id="li-zi">例子：</span><a href="#li-zi" class="header-anchor">#</a></h3><p><del>中划线</del></p><h2><span id="14-tian-jia-jiao-zhu">14.添加脚注</span><a href="#14-tian-jia-jiao-zhu" class="header-anchor">#</a></h2><pre><code>这是脚注[^1][^1]: 这是脚注说明，会在文章的末尾显示.</code></pre><h3><span id="li-zi">例子：</span><a href="#li-zi" class="header-anchor">#</a></h3><p>这是脚注<a href="%E8%BF%99%E6%98%AF%E8%84%9A%E6%B3%A8%E8%AF%B4%E6%98%8E%EF%BC%8C%E4%BC%9A%E5%9C%A8%E6%96%87%E7%AB%A0%E7%9A%84%E6%9C%AB%E5%B0%BE%E6%98%BE%E7%A4%BA.">^1</a></p><h2><span id="15-biao-ge">15.表格</span><a href="#15-biao-ge" class="header-anchor">#</a></h2><pre><code>默认向左对齐默认表格：First Header | Second Header | Third Header------------ | ------------- | ------------Content Cell | Content Cell  | Content CellContent Cell | Content Cell  | Content Cell左右浮动表格：First Header | Second Header | Third Header:----------- | :-----------: | -----------:Left         | Center        | RightLeft         | Center        | Right</code></pre><h3><span id="li-zi">例子：</span><a href="#li-zi" class="header-anchor">#</a></h3><p>默认表格：</p><table><thead><tr><th>First Header</th><th>Second Header</th><th>Third Header</th></tr></thead><tbody><tr><td>Content Cell</td><td>Content Cell</td><td>Content Cell</td></tr><tr><td>Content Cell</td><td>Content Cell</td><td>Content Cell</td></tr></tbody></table><p>左右浮动表格：<br>First Header | Second Header | Third Header<br>:———– | :———–: | ———–:<br>Left           | Center        | Right<br>Left         | Center        | Right</p><h2><span id="16-nei-rong-kuai">16.内容块</span><a href="#16-nei-rong-kuai" class="header-anchor">#</a></h2><pre><code>&gt; 这里的内容在内容块中</code></pre><h3><span id="li-zi">例子：</span><a href="#li-zi" class="header-anchor">#</a></h3><blockquote><p>这里的内容在内容块中</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;md-chang-yong-yu-fa&quot;&gt;md常用语法&lt;/span&gt;&lt;a href=&quot;#md-chang-yong-yu-fa&quot; class=&quot;header-anchor&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;&lt;h2&gt;&lt;span id=&quot;1-lian-jie&quot;&gt;1.链</summary>
+      
+    
+    
+    
+    <category term="ubuntu" scheme="http://example.com/categories/ubuntu/"/>
+    
+    <category term="2021" scheme="http://example.com/categories/ubuntu/2021/"/>
+    
+    <category term="md" scheme="http://example.com/categories/ubuntu/2021/md/"/>
+    
+    
+    <category term="md" scheme="http://example.com/tags/md/"/>
+    
+    <category term="typora" scheme="http://example.com/tags/typora/"/>
+    
+    <category term="ubuntu18.04" scheme="http://example.com/tags/ubuntu18-04/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分类测试</title>
+    <link href="http://example.com/2021/05/11/dir/dir/"/>
+    <id>http://example.com/2021/05/11/dir/dir/</id>
+    <published>2021-05-11T08:10:41.000Z</published>
+    <updated>2021-08-16T12:06:02.062Z</updated>
+    
+    <content type="html"><![CDATA[<div class="toc"><!-- toc --><ul><li><a href="#dir-test">dir test</a></li></ul><!-- tocstop --></div><h2><span id="dir-test">dir test</span><a href="#dir-test" class="header-anchor">#</a></h2><blockquote><p>dir test<br>分类测试</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;toc&quot;&gt;
+
+&lt;!-- toc --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#dir-test&quot;&gt;dir test&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;
+
+&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;span id=&quot;dir-test&quot;&gt;dir</summary>
+      
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
+    
+    <category term="分类测试目录" scheme="http://example.com/categories/hexo/%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95%E7%9B%AE%E5%BD%95/"/>
+    
+    
+    <category term="分类测试" scheme="http://example.com/tags/%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/05/11/hello-world/"/>
+    <id>http://example.com/2021/05/11/hello-world/</id>
+    <published>2021-05-11T07:06:06.671Z</published>
+    <updated>2021-05-11T07:06:06.671Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
